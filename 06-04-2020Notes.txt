@@ -1,0 +1,74 @@
+1. What are the basic requirements for building an End to End Web Application?
+    - HTML
+	It is an presentation language.
+    - CSS
+	It makes the presentation more interactive
+	and responsive.
+
+    - Client Side Script
+	It reduces the burden on server by handling interactions and validations client side.
+	Ex: JavaScript, TypeScript
+
+    - Server Side Script
+	It generates a response customized for every client request.
+	Ex: JSP, PHP, ASP.NET, Python etc..
+
+    - Database
+	To store and manage data for application.
+	EX: Oracle, MySql, MongoDb
+
+    - Middleware
+	To Handle communication between multi-tiers.
+	Ex: Express, JsX
+
+    - DeskTop Publishing Tools
+	To publish Images and animation for web.
+	Ex: Photoshop, Flash
+
+    - IDE's
+	To build, debug, test, deploy applications.
+	Ex: Visual Studio Code, Eclipse, Web Strom etc..
+
+Tim Berners Lee - Introduced the concept of Web
+	              in 1990's. He developed a lang
+	              called HTML.
+
+2. What are the challenges in Modern Web Development?
+ [Majority of users are using web from smart devices]
+
+ a) Unified UX
+      - Application must have a unified experience
+        across any device.
+      - Mobile users must get access to everything.
+      - Application should not optimize.
+      - User must have the same UI and Experience
+        on any device he is using.
+      
+ b) Fluid UX
+       - User must stay on single  page.
+       - Everything must get access from 1 page.
+       - No navigation between pages.
+
+ c) Extensibility and Loosely Coupled
+      - Without disturbing the application we must able to extend the application.
+
+ d) Simplified Upgrade and Deployment
+     - No more wizard for installing
+     - No more restart of devices.
+
+3. What is Solution?
+A. Better build SPA or Progressive Application
+     [Instead of Traditional Web Application]
+
+
+4. What is SPA?
+5. What is Progressive Web Application?
+6. How to Build SPA and Progressive App?
+
+
+www.github.com/sharma-nareshit
+
+
+
+
+   
