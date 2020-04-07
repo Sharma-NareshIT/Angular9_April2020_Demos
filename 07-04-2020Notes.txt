@@ -1,0 +1,60 @@
+1. What are the basic requirements for building an End to End Web Application?
+2. What are the challenges in Modern Web Development?
+     - Unified UX
+     - Fluid UX
+     - Loosely Coupled and Extensible
+     - Simiplified Deployment and Upgrades
+3. What is Solution?
+     - Better to build  "SPA" Single Page Applications
+       or "Progressive Applications"
+
+4. What is SPA?
+    - A single page application allows user to access everything from one page.
+    - User will stay on one page and can get access to everything from the page.
+    - New details are added to page without reloading the complete page.
+           Ex: Twitter
+
+5. What is Progressive Web Application?
+   - A website will have an app like experience even in a browser.
+   - Website will not look like a page, you will have the feel of an app in browser.
+
+6. How to Build a SPA or Progressive Web App?
+  - Can web Build with HTML, CSS, JavaScript and JQuery? : Yes
+  - Then what is problem with JavaScript and Jquery,
+     why we are moving towards new technologies?
+
+7. What is Problem with JavaScript and JQuery?
+   
+Evolution:
+- Network in computing system started in early 1960's
+- The first computer network was ARPANET  [Advanced Research Projects Agency Network] introduced by US-DOD.
+- CERN Labs [Council for European Research and Neucler] introduced Internet
+              Browser	: Mosaic 
+              Markup	: GML, SGML
+              Client Side   : ECMA Script
+- Tim Berners Lee [works for CERN] introduced the concept of Web [Web is a portion of internet with restricted access]. He introduced a language for web called "HTML".
+- In early 1994  Netscape Communications developed a Browser for Web called "Nescape Communicator"
+
+        Browser	: Netscape
+        Markup Lang	: HTML
+        Client Side	: ECMA Script
+
+- A group called IETF [Internet Engineering Task Froce] took responsibility of developing HTML and released so many features into HTML like links, forms etc..
+        ECMA Script was unable to handle advanced HTML features introduced in early days, like forms.
+
+- In 1996 Netscape appointed an Scripting Expert to build a client side script for Netscape Browser in order to handle HTML and its improving features. His name is  "Brendan Eich". He developed a script by name "Mocha", which was later re-named as "Live Script".
+
+- Netscape Company is not an expert of Scripting Languages, hence they given the responsibility of mantaining and improving "Live Script" to a company called "Sun Micro Systems" [ was popular at that time with their language called JAVA]. 
+
+- Hence SunMicro Systems re-named the script as "JavaScript".
+	JavaScript - Designed by Brendan Eich
+		  - Maintianed by SunMicro
+		  - Standards of ECMA
+- 1998 Microsoft releated OS - Windows - 98 free browser "Internet Explorer".
+	Uses   : HTML
+	Client : JavaScript
+- 2001 Netscape stopped its services and handed over JavaScript to ECMA.
+          Every Browser started extention of JavaScript by its Own. This leads to "Browser Incompatibility"
+
+- 2006 John Resig  introduced a library for JavaScript to reduce compatibility issues, which is known as "JQuery".
+	
