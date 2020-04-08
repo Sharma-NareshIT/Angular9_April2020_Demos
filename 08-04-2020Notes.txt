@@ -1,0 +1,27 @@
+7. What are the issues with JavaScript and JQuery? Why they are not good for SPA and Progressive Apps?
+ - JavaScript and JQuery uses lot of DOM manipulations.	
+ - Lot of references
+ - Lot of coding 
+ - Navigation Issues
+   [history object - back, forward, go()]
+   [location object - reload]
+ - DataBinding
+   [How data is accessed and binded to UI]
+   [lot of references and events are required]
+ - Heavy Application
+ - JavaScript is a language and JQuery is a Libary And a library or language can't control the application flow. They are just responsible for building application but not controlling the flow of application.
+   [Application can't control its own flow, it depends on lot of events].
+	
+What is Solution?
+- Better use a Framework 
+- Framework comprises of language and library which allows to build application and also to control the application flow.
+
+Java	Spring, Hib
+.NET	ASP.NET, MVC
+PHP	Cake PHP, Code Igniter
+Python	Django, Flask, Grok
+JavaScript  Angular JS, Knockout JS, BackBone Js
+	  Ember JS, SPINE, Vue JS etc..
+
+github.com/sharma-nareshit
+  [Angular9_April2020_demos]
