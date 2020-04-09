@@ -1,0 +1,23 @@
+Q. What is a Framework?
+A. Framework is an software architectural pattern, It is same like a design pattern but have broader scope.
+
+Q. What is Design Pattern?
+A. 
+- Design patterns are solution for software design problems. 
+- Design patterns are like principles followed by developers in order to build an application. 
+- Design Patterns are about creating objects, designing classes and defining communication is software application.
+- In software development we have 23 Design patterns which are foundation for all other patterns. We call them as "GoF" design pattern
+- 23 Design patterns are categorized into 3 groups
+	a) Creational Patterns
+	b) Structral Patterns
+	c) Behavioral Patterns
+
+Design patterns are about  building. How to control the application flow i.e how to access the data and how to present the data.
+
+Software Architectural Patterns:
+- Both building the application and control the application flow.
+- Framework is an architectural pattern. Framework provides language and library to build application. Framework also provides an approach for controlling the flow of application.
+
+Angular JS is a framework - Library to build application - approach that can control the application flow - angular js internally uses frameworks like MVC, MVP, MVVM.
+
+
