@@ -1,0 +1,51 @@
+JavaScript:
+- JavaScript is a Language.
+- JavaScript client side with HTML
+- JavaScript server side with Node JS
+- JavaScript Database with MongoDb
+- JavaScript Animations with Flash
+
+JQuery:
+- It is an JavaScript Library
+- Write less and do more
+- It can reduce compatibility issues
+- Can Manipulate HTML , CSS 
+- Provides Plugins 
+- Provides Interactions
+- Provides Effects
+- Provides Widgets [JQuery UI]
+
+Other JavaScript Libraries : JQlite, RxJS etc..
+
+Client Side JavaScript Framework
+------------------------------------------------
+It provides a library to build application and also uses various software architectural patterns that can control the application flow.
+- Knockout Js
+- Ember Js
+- BackBone Js
+- SPINE 
+- Angular Js
+
+		Angular Js
+- It is a JavaScript-based, open-source, front-end web application framework.
+- It is Maintained by Google and a large community of developers and organization.
+- Angular Js - Used by Google for its Apps
+- 2010 Google made Angular JS Open Source
+- Angular Js provides all features that can support SPA.
+- It uses client side MVC, MVVM architectures.
+
+Draw Backs:
+- Angular JS is not designed for what you are using.
+- Hence lot of GAP's
+- Angular Js is JavaScript based , It is not strictly typed language. Java, .NET - strictly typed
+	var  x = 10;
+                  x="A";        // valid
+- Angular Js uses legacy of library
+- It is slow and heavy 
+
+Google Angular Team - Lets develop a new technolgoy to over - all issues
+
+- 2014  They design and released Angular 2.0  as an alternative for Angular JS.
+- Angular JS latest version is 1.7.9  2019
+
+
