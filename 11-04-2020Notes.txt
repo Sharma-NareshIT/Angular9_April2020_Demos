@@ -1,0 +1,57 @@
+JavaScript	- Language	
+JQuery		- Library
+Angular Js	- Framework   1.7.9 Latest
+		  2010 Google, Community
+		  SPA
+- Google Angular Team 
+- Started developing a new Platform for Developers
+- Developers Platform comprises all tools and utilities that are required to build an End to End application.
+- The tools required for developer to build, debug, test and deploy applications.
+- Google Named it as "Angular"
+- Angular JS is a Framework. [SPA, Progressive]
+- Angular is an developers platform.
+- Angular is a complete re-building of technology.
+- Angular is not next version of Angular JS
+- Angular is complete alternative for Angular Js
+- You don't need to learn Angular JS to learn Angular.
+- You can't handle Angular JS by learning Angular.
+- Angular JS is different.
+- Angular is different.
+- Companies with technologies, which are JavaScript based they use "Angular JS".
+
+Angular JS Versions are 1x :  Latest  1.7.9   [2019]
+Angular Versions start from 2
+
+	                Angular
+- Angular is an open source and cross platform developers platform built by Google Angular Team and mantained by a large community of Organizations and Developers.
+- Angular is TypeScript Based
+- Google Angular Team started a new script for Angular called "atScript".
+- "AtScript" is to overcome all the issues that we were facing with JavaScript.
+- In 2013 Microsoft C# language Architect "Anders Hejlsberg" developed a language called "TypeScript"
+- TypeScript is used client side with C# as server side for Microsoft .NET technolgoy.
+- Angular Started using "TypeScript" as language instead of JavaScript and AtScript.
+
+ Angular		- Google
+ TypeScript	- Microsoft
+
+ TypeScript is for Developers 
+  TypeScript is Transcompiled into JavaScript
+
+- Angular Open Source
+- Angular is Cross Platform
+  * Angular uses frameworks like 
+	Apache Cordova
+	Native Script
+	Ionic
+   which are used to build cross platform mobile applications.
+- Angular can build SPA and Progressive Web App
+- Angular supports frameworks like MVC, MVVM
+- Angular provides a modular library.
+- Application specific framework.
+- Angular is 10x faster than Angular JS
+- Angular Version 9
+      Google withdrawn support for Angular upto 6 
+      no LTS upto 6
+- Google provides LTS for versions 7,8,9
+
+	           TypeScript
