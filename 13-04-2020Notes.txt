@@ -1,0 +1,65 @@
+	             TypeScript
+- JavaScript is lightweight, interpreted or just-in-time compiled programming language. It is used client side with HTML, server side with Node JS, in database like MongoDb etc.
+- JavaScript supports several programming approaches like structrual, functional, imperative and Object Oriented.
+- ECMAScript 6 in 2015  [ES6]
+- ECMAScript 2019
+- ECMAScript 2020
+- JavaScript is not strictly typed by default. 
+- JavaScript is not strongly typed.
+- JavaScript is not schema based.
+- To overcome the issues with javascript, Google Angular team started a new script called "atScript".
+- 2013  "Anders Hejlsberg" working for Microsoft on a language called C# developed a script called "TypeScript".
+
+- TypeScript  is Typed JavaScript at any scale.
+- TypeScript speeds up your development experience by catching errors and providing fixes before your even run your code.
+- TypeScript transcompiles into JavaScript and can run on any OS and Browser.
+- TypeScript is an open-source language that transcompiles into JavaScript.
+- The First version of TypeScript  
+	"1 October 2012"
+- The Latest version of TypeScript
+	3.8.3 - 20 Feb 2020
+- TypeScript can be used for both client side and server side applications.
+- TypeScript is superset to JavaScript.
+- TypeScript is completly Built by using "TypeScript".
+ - TypeScript 3.8 transcompiles into JS ES6 
+
+Features of TypeScript
+- Type Annotations
+- Compile Type type checking
+- Type inference
+- Type erasure
+- Interfaces
+- Enumerated Types
+- Generics
+- Namespaces
+- Tuples
+- Asynchronous 
+- Class
+- Modules
+- Anonymous functions
+
+Setup Environment for TypeScript
+------------------------------------------------
+1. Download and Install  "Node Js"
+	NPM - Package Manager
+	      
+    https://nodejs.org/en/download/
+
+    [Download ".msi" for windows ]
+
+2. Open Command Prompt
+           > node -v
+           > npm -v
+
+3. Download and Install TypeScript
+         - Open Command Prompt
+         - Type the following
+	>npm install  -g  typescript@latest
+	> tsc  -v   [verify the version]
+
+4. Download and Install "Visual Studio Code"  IDE
+
+            https://code.visualstudio.com/
+
+
+
