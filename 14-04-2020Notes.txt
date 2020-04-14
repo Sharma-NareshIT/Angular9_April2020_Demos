@@ -1,0 +1,63 @@
+What is TypeScript?
+Features of TypeScript?
+How to Install TypeScript?
+1. Install Node JS
+2. Install TypeScript
+3. Visual Studio Code 
+
+	       TypeScript Architecture
+
+- Typescript is built by using "TypeScript".
+- It source files will have the extention ".ts".
+- TypeScript Components
+
+1. Core TypeScript Compiler
+    - It compiles the typescript code
+    - It verifies the typescript syntax, keywords, type
+      casting, datatypes.
+    - It identifies the errors in syntax, keywords, type casting , datatypes and reports the bugs.
+    - It manages by using files like  core.ts, program.ts,
+      checker.ts, scanner.ts, emitter.ts etc..
+
+2. Language Service
+    - Service is a pre-defined business logic
+    - The language service provides library for core compiler.
+    - The keywords, types and other service related options are verified from language service.
+
+3. Standalone Compiler [tsc.ts]
+   - It Transcompiles the TS code into JavaScript.
+                         TS --> JS
+   - Typescript is not directly understandable to browser or any device.
+   - Typescript is transcompiled into javascript
+   - JavaScript is native to browser and other devices.
+   
+4. Typescript Server [tsserver.ts]
+    - Server is the location where application is hosted
+    - Server identifies the request , process the request and generates a response for request.
+    - TS server is the location where the typescript code is compiled, processed and output generated.
+
+5. VS Shim [ shims.ts ]
+     - Shim is small library
+     - IT brings an new API to an older environment.
+     - It reduces the compatibility issues
+     - It makes your code OS neutral
+     - It makes your code cross platform
+     - Shim creates plugin called "Polyfills"
+
+6. Managed Language Service
+     - It Contains a library which can run on every OS
+     - It contains cross platform library
+     - It comprises of functions which are understandable to every device, browser and OS 
+
+7. Editors 
+    - It provides a support for various editors which are used to build, debug, test and deploy applications.
+    - TypeScript supports various editors
+	Visual Studio Code
+	Sublime
+	Web Strom
+	Visual Studio
+	Eclipse etc..
+
+	TypeScript Language Basics
+
+
