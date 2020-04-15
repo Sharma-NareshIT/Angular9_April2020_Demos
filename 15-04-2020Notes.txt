@@ -1,0 +1,90 @@
+Starting with TypeScript Programs
+1. Install Node JS for Package Manager - NPM
+	
+	https://nodejs.org/en/download/
+	            [.msi]
+        C:\> node -v
+        C:\> npm -v
+
+2. Install TypeScript
+
+        C:\> npm install -g typescript@latest
+        C:\> tsc  -v
+
+3. IDE [ Integrated Development Environment ]
+    - Download "Visual Studio Code" 
+
+          https://code.visualstudio.com/
+
+    - Install VS Code
+    - Open VS Code
+    - At customize option Install support for 
+	"JavaScript"
+
+4. Create a Folder for Project on your Disk
+
+	C:\TypeScript3.8
+
+5. Open folder in your VS Code
+
+	File Menu → Open Folder
+	 [C:\TypeScript3.8]
+
+6. Add a [+] New File into Project by name 
+	           "demo.ts"
+          console.log("Welcome to TS");
+
+7. Transcompile TS program
+	TS → JS
+     - Open Terminal in Visual Studio Code
+	         [ Ctrl + ` ]  backtick
+      
+     - Compile the program
+
+	C:\TypeScript3.8> tsc  demo.ts
+		                     
+	     [ Generates - demo.js]
+
+     - Run the JavaScript program
+
+	C:\TypeScript3.8> node demo.js
+
+	O/P:  Welcome to TS
+
+Download and Install Following Extenstions for VS Code:
+-------------------------------------------------------------------------
+1. vscode-icons
+2. TSlint
+3. Open with Browser [Open in Browser]
+4. Live Server
+
+Ex:
+1. Create a new File "demo.ts" and add following code.
+
+document.write("<h2>Welcome to TS</h2>");
+document.write("<p>This is our JS Program in TypeScript.</p>");
+console.log("This message is displayed in Debugger-Console");
+
+2. Transcompile
+	>tsc  demo.ts
+	          demo.js
+3. Add a new HTML file
+		"home.html"
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="demo.js"></script>
+    </head>
+</html>
+
+4. Right Click on the page [home.html]
+	"Open With Live Server"
+
+
+	 TypeScript Language Basics
+
+
+	   
+
+
+
