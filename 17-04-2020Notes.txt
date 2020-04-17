@@ -1,0 +1,202 @@
+- Installing TypeScript
+- Create a new TypeScript Project
+- Create TS Programs
+	demo.ts
+- Compile and Run
+	>tsc demo.ts
+	>node demo.js
+
+Note : Typescript is superset to JavaScript hence all javascript programs are valid in typescript.
+
+	  TypeScript Language Basics
+1. Variables
+2. DataTypes
+3. Operators
+4. Statements
+
+	      Variables in TypeScript
+
+- Variables are simply storage locations in memory where you can store a value and use it as a part of any expression.
+
+- Variable configuration in computer programming includes 3 stages
+
+	a) Declaration
+	b) Rendering / Assigning
+	c) Initialization
+
+ 	var  x;		→ Declaration
+	x = 10;		→ Rendering
+	var x = 10; 	→ Initialization
+
+- JavaScript can directly render a value without declaration if it is not defined in strict mode.
+
+- Declaring variable is not mandatory in JavaScript untill or unless it is defined in strict mode.
+
+- Declaring or Initalizing  variable is mandatory if javascript is in strict mode.
+
+- TypeScript is by default in strict mode of JavaScript, hence in TypeScript declaring or initializing variable is mandatory.
+
+- Variables in TypeScript can be declared or initialized by using the following keywords:
+	a) var
+	b) let	
+	c) const
+
+                     var     (vs)       let        (vs)  const
+	    ---------------------------------------------
+var 
+- It defines a function scope variable.
+- Variable can be declared and accessed anywhere inside the function.
+- var  allows  declaration, rendering and initialization.
+
+Ex:
+function f1(){
+    var x = 10;
+    var y;
+    if(x==10) 
+    {
+        y = 20;
+        var z = 30;
+    }
+    console.log("x=" + x + "\n" + "y=" + y + "\n" + "z=" + z);
+}
+f1();
+
+- var  allows  shadowing.
+
+  Shadowing is the process of re-defining same name variable i.e same identifier inside the given context.
+
+Ex:
+function f1(){
+    var x = 10;
+    var y;
+    if(x==10) 
+    {
+        y = 20;
+        var z = 30;
+        var z = 50;       // shadowing
+    }
+    console.log("x=" + x + "\n" + "y=" + y + "\n" + "z=" + z);
+}
+f1();
+
+- var  allows  hoisting. 
+
+  Hoisting allows to declare or initialize a variable after using i.e the is no order dependency in declaring and using variables.
+
+Ex:
+function f1(){
+   x = 10;
+   console.log("x=" + x);
+   var x;    // x is hoisted
+}
+f1();
+
+
+
+
+
+
+let :
+- let is to define a block scope variable.
+- It is accessible only with in the defined block.
+- It allows declaring, rendering, initialization.
+- It will not allow shadowing.
+  [Cannot redeclare block-scoped variable]
+- It will not allow hoisting.
+
+const:
+- const is to define a block scope variable.
+- It is accessible only with in the defined block.
+- It allows only initialization. You can't declare or render / assign.
+	  const x = 10;	// valid
+	  const x;		// invalid
+	  x=10;		// invalid
+- Every const must be initialized.
+- It will not support shadowing.
+	 {
+	   const x = 10;
+	   const x = 20;         // invalid - can't shadow
+	 }
+- It will not support hoisting.
+	
+
+Summary:
+  Feature	        var	       let          const
+  ========================================
+  Scope	     function     block      block
+  Declaring    Yes             Yes          No
+  Assign	     Yes	       Yes         No
+     or
+  Render
+  Shadow	     Yes              No          No
+  Hoisting      Yes              No          No
+  Initialization  Yes           Yes         Yes
+
+Global Scope of Variables:
+=======================
+  Variables can be defined with global scope by declaring outside the functions.
+   You can delcare or initialize by using var, let and const.
+
+Ex:
+const x = 30;
+function f1(){
+   console.log("x in f1 = " + x);
+}
+function f2() {
+   console.log("x in f2 = " + x);
+}
+f1();
+f2();
+   
+- How to configure a variable in a function and make it  accessible globally?
+A. Global variables in a function can be declared by using the object "window".
+
+ Syntax:
+	window.variableName = value;
+
+Ex: 
+1. Create a TS file "variable.ts"
+
+const x = 30;
+function f1(){
+   window.y = 40;
+   document.write("x in f1 = " + x + "<br>");
+   document.write("y in f1 = " + y + "<br>");
+} 
+function f2() {
+   document.write("x in f2 = " + x + "<br>");
+   document.write("y in f2 = " + y + "<br>");
+}
+f1();
+f2();
+
+
+2. Compile
+	> tsc variable.ts
+3. Link to HTML page
+	         home.html
+ <head>
+  <script src="variable.js"> </script>
+ </head>
+
+Variable Naming Conventions:
+- Always variable name must start with an alphabet or an _ underscore.
+- It can be alpha numeric , but can't start with number or other special chars.
+	
+	let  price = 45000.44;	 	// valid
+	let  price2 = 56000.55;	// valid
+	let  price_2 = 45000.55;	// valid
+	let  2price = 45000.55;	// invalid
+	let  _price = 45000.55;	// valid
+
+- A variable must speak what it is.
+	let id = 10;
+- Variable names must be defined in camel case.
+	let txtName = "John"
+	btnSubmit , btnInsert
+	txt  -  define what is the object type
+	Name - define what is the purpose.
+
+- Variable name can't be more than 255 chars.
+
+	                DataType
