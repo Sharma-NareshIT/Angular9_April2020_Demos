@@ -1,0 +1,53 @@
+1. Variables in TypeScript [var, let & const]
+2. DataTypes
+
+	              DataType
+- DataType determines the type of value that can be stored in a memory reference.
+- JavaScript is implicitly typed language, the data type for any memory reference will be determined according to the value assigned or initialized.
+		var x = 10;       //number
+		var x = "John"; // string
+- JavaScript is not strongly typed. The types will not strictly restrict the value. It allows to render any value.
+		var x = 10;    // number
+		x = "John";  // string - valid
+		x = true ;      // bool - valid
+- TypeScript is a strongly typed language.
+- The data type defined for any variable will allow only the specific type.
+- Explicitly we have to define the datatype for variable.
+- According the value defined , TypeScript can strictly restrict the value type even when the type is not defined.
+- TypeScript follows a "Duck Typing" mechanism.
+ 
+Note: Duck typing in computer programming is an application of the duck test - "If it walks like a duck and it quacks like a duck, then it must be a duck". 
+           To determine if an object can be used for a particular purpose. We can exactly specify and understand what the type of value it can handle.
+
+Syntax:
+       let  variableName : dataType = value;
+
+- The root type for all datatypes in TypeScript is "any"
+- "any" is a type that can handle any value.
+- All datatypes in typescript are derived from "any"
+  [ it is the base type for all types ]
+- The datatypes are categorized into 2 groups
+	a) Primitive Types
+	b) Non-Primitive Types
+
+Primitive Types
+- Stored in memory stack
+- It uses Last-in First-out
+- It have a fixed range for value.
+- Values are stored and accessed directly by using the allocated memory reference name.
+- The typescript primitive types are
+	a) number
+	b) boolean
+	c) string
+	d) null
+	e) undefined
+
+Syntax:
+	let  id : number = 1;
+	id = "John";   // invalid
+	id = 2 ;           //  valid
+
+
+
+
+
