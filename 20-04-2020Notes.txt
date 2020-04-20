@@ -1,0 +1,62 @@
+"any" is the root type for all data types.
+1. Primitive Types
+2. Non Primitive Types
+
+Primitive Types:
+- Allocated with stack memory.
+- Stored and accessed by using LIFO [last-in first-out]
+- Have fixed range for value.
+- Values are stored in a direct memory reference and are accessed by using the reference.
+- TypeScript primitive types are:
+	1. number
+	2. boolean
+	3. string
+	4. null
+	5. undefined
+
+Syntax:
+	let  variableName: dataType = value;
+
+Note: TypeScript is case sensitive.
+
+Number Type:
+- Number type is used to store numeric value.
+- Number type is defined by using "number" keyword
+- You can use number type for storing
+	Signed Integer	- 10
+	Unsigned Interger	10
+	Floating Point	4.5
+	Double		540.560
+	Decimal		4.607969588543 [29]
+	Exponent		2e3   2x10[3] = 2000
+	Hexadecimal	0xf00d
+	Binary		0b1010
+	Octal 		0o744
+
+
+Ex:
+	            "numbertype.ts"
+
+let signed:number = -10;
+let unsigned:number = 10;
+let float:number = 4.5;
+let double:number = 460.660;
+let decimal:number = 4.60000795949356;
+let exp:number = 2e3;
+let hex:number = 0xf00d;
+let oct:number = 0o744;
+let bin:number = 0b1010;
+
+console.log("Decimal=" + decimal + "\n" + "Exponent=" + exp + "\n" + "Hexadecimal=" + hex);
+
+
+
+
+
+
+
+
+
+
+
+
