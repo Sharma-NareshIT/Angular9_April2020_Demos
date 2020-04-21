@@ -1,0 +1,65 @@
+Type Script Primitive Types:
+1. Number Types: Store numeric value, number, signed, unsigned, float, double, decimal, exponent, hexadecimal, binary, octa
+
+	let var : number = 10;
+
+2. Boolean Type:
+- Boolean values are used for decision making.
+- Boolean types in javascript are defined with "true/false" and also "0/1".
+	true	= 1
+	false	= 0
+- TypeScript boolean types are defined only by using "true or false" not 0 and 1.
+- Boolean conditions are also verified only by using "true or false" not 0 and 1.
+- Boolean types are declared by using the keyword "boolean".
+
+Syntax:
+	let  isInStock:boolean = true;
+	if(isInStock==true)	// valid
+	if(isInStock==1)	// invalid
+
+
+
+3. String Type
+- String is a literal with a group of characters enclosed in 
+	a) double quotes	" "
+	b) single quotes	'  '
+	c) backtick	` `   
+- A string literal contains alpha numeric and sepcial characters.
+- String is declared by using the keyword "string".
+- String is enclosed with double, single quote or backtick.
+- We can use double and single quotes to swap between the outer and inner string.
+
+Syntax:
+
+let userName:string	= "John";		// valid
+let userName:string =  'John';		// valid
+let userName:string = `John`;		// valid
+
+- Single and Double quotes can swap between inner and outer string:
+
+let msg:string = "alert('Hello !')";	// valid
+let msg:string = 'alert("Hello !")';	// valid
+
+let msg:string = 'alert('Hello !')';	// invalid
+let msg:string = "alert("Hello !")";	// invalid
+
+- BackTick was introduced into JavaScript from version ES5.
+- BackTick defines a string embeded with expression.
+- Expression in a string representation is defined by using  "${ }"
+- BackTick is used for templated string.
+- Templated string comprises of presentation and logic.
+
+Ex:
+let Age:number = 26;
+let msg1:string = "You will be" + " " + (Age+1) + " " + "Next Year";
+let msg2:string = `You will be ${Age+1} Next Year`;
+console.log(msg1);
+console.log(msg2);
+
+- A string literal with special characters may escape printing for certian characters. You have to print the non-printable chars by using "\".
+
+Ex:
+let path:string = "\"D:\\Images\\Pic\\tv.jpg\"";
+console.log("Path=" + path);
+
+O/P :     "D:\Images\Pic\tv.jpg"
