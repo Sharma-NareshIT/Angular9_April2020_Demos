@@ -1,0 +1,101 @@
+	              Class in OOP
+- Technically in computer programming class in a Program Template, which contains data and logic.
+
+- Data is stored in Properties and Logic is defined by using Methods.
+
+- Class is an logic entity that represents the business requirements.
+
+- Class is also know as a Model or Blue print for creating of Objects.
+
+- Objects are instances of a class, which are used to access the members of class.
+
+- Johan Olay and Kristian Nygaard introduced the concept of class based programming. First class based OOP was "SIMULA 67" introduced in 1960's.
+
+- The members defined in a class can have 3 access modifiers
+	a) public
+	b) private
+	c) protected
+
+Access Modifier	          Description
+===========================================
+public 	           It defines accessbility from any
+	           location. you can access with in
+	           the class or outside the class.
+	           A public member is accessible by
+	           using a base class object or by
+	           derived class object.
+
+private	           It defines accessbility only within
+	           the class.
+
+protected	           It defines accessbility within the 	     	           class and outside the class only
+	           by using derived class object or
+	           reference.
+
+Ex:
+class Base {
+   public ProductId:number = 1;
+   private Name:string = "TV";
+   protected Price:number = 45000.53;
+}
+class Derived extends Base {
+   public Print(derivedObj:Derived) {
+      derivedObj.ProductId = 2;
+      derivedObj.Price = 31000.33;
+   }
+}
+
+* ProductId  is public 
+* Price is protected
+* derivedObj is an Derived class object hence it can give acess to both public and protected members.
+
+Ex: Change the following
+class Derived extends Base {
+   public Print(baseObj:Base) {
+      baseObj.ProductId = 2;
+      baseObj.Price = 31000.33;    // invalid
+   }
+}
+
+* ProductId is public
+* Price is protected
+* baseObj is an base class object it can't access protected members.
+
+- The class members can be static or non-static.
+
+
+Static :
+- The term static refers to a continous memory.
+- The memory allocated for an object will continue for other objects.
+- The members stored in static memory are accessible by using the class name.
+
+Dynamic:
+- The term non-static or dynamic refers to discreet memory. Not continous memory.
+- The memory allocated for an object will be destroyed after the usage.
+- The memory is newly allocated for every object.
+- Non static members are accessible by using "this" keyword with in the class and by using object outside the class.
+
+
+Ex:
+class Demo {
+    public static s = 0;
+    public n = 0;
+    constructor() {
+        Demo.s = Demo.s + 1;
+        this.n = this.n + 1;
+    }
+    public Print(){
+        console.log(`s=${Demo.s}  n=${this.n}`);
+    }
+}
+let obj1 = new Demo();
+obj1.Print();
+let obj2 = new Demo();
+obj2.Print();
+let obj3 = new Demo();
+obj3.Print();
+
+
+
+
+
